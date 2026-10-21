@@ -1,1 +1,38 @@
+# 8-Bit Ripple Carry Adder — XOR/AND/OR CMOS Implementation
 
+## Overview
+This implementation of an 8-bit ripple carry adder uses CMOS full-adder circuits designed with XOR, AND, and OR logic. The circuit was designed and simulated using Cadence Virtuoso.
+
+## Design Description
+The full-adder circuit generates the Sum and Carry outputs from two input bits and an incoming carry.
+
+The Boolean expressions are:
+
+- **Sum:** A ⊕ B ⊕ Cin
+- **Carry-out:** AB + ACin + BCin
+
+Eight full-adder stages are cascaded, with the carry output of each stage connected to the carry input of the next stage.
+
+## Implementation
+- Designed CMOS full-adder circuitry using XOR, AND, and OR logic.
+- Cascaded eight full-adder stages to construct the 8-bit adder.
+- Developed circuit schematics in Cadence Virtuoso.
+- Simulated the design to verify sum generation and carry propagation.
+
+## Tools Used
+- Cadence Virtuoso
+- CMOS schematic design and circuit simulation
+
+## Verification
+Simulation waveforms were used to examine the circuit's response to input combinations and verify the sum and carry outputs.
+
+## Project Files
+- CMOS full-adder schematic
+- 8-bit ripple carry adder schematic
+- Simulation waveform screenshots
+
+## Key Learnings
+- CMOS implementation of combinational logic
+- Full-adder design using XOR, AND, and OR logic
+- Multi-stage carry propagation
+- Schematic development and circuit verification in Cadence Virtuoso
